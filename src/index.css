@@ -1,13 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.card-item {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.card-item img {
+  width: 150px;
+  height: 150px;
+}
+.card-item p {
+  font-size: 18px;
+}
+
+.card-item button {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(96, 7, 180);
+}
+.course-detail-card {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 20px;
+  padding: 30px;
+}
+.course-detail-card img {
+  width: 300px;
+}
+.course-detail-card p {
+  font-size: 18px;
+}
+.course-detail-card button {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(96, 7, 180);
 }
